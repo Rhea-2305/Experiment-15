@@ -28,3 +28,23 @@ Visual Studio Code
 The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1.
 
 ## Output
+![image](https://github.com/user-attachments/assets/846a70e6-6557-4fbf-9d0e-6b13f203ca40)
+
+## Conclusion
+We found the fibonacci series for n number using recursion in C++.
+
+## Program 3
+## Aim
+Find sum of n natural numbers using recursion, n is the value entered by user.
+
+## Software used
+Visual Studio Code
+
+## Theory
+To find the sum of the first \( n \) natural numbers using recursion, you break it down into smaller parts. The formula is: \( \text{Sum}(n) = n + \text{Sum}(n-1) \). The base case is when \( n \) is 1, since the sum of the first natural number is 1. The function adds the current number \( n \) to the sum of the previous numbers until it reaches the base case, then returns the total.
+
+## Output
+![image](https://github.com/user-attachments/assets/b1cd579d-575b-4724-9940-090eba986090)
+
+## Conclusion
+We learned how to add n numbers using recursion in C++.
