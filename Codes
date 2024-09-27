@@ -45,3 +45,29 @@ int main(){
     int ans = fib(n);
     cout<<n<<" Fibonacci number is: "<<ans; 
 }
+
+
+//Rhea Kulkarni
+//2370123106
+//ENTC B1
+#include <iostream>
+using namespace std;
+int sumOfNumbers(int n) {
+    if (n == 0) {
+        return 0;
+    }
+    return n + sumOfNumbers(n - 1);
+}
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    if (n < 0) {
+        cout << "Please enter a number (0 or positive)." << endl;
+        return 1;
+}
+    int sum = sumOfNumbers(n);
+    cout << "The sum of the first " << n << "  numbers is: " << sum << endl;
+    return 0;
+}
